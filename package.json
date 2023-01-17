@@ -26,11 +26,12 @@
     "grunt-contrib-cssmin": "^3.0.0",
     "grunt-contrib-pug": "^3.0.0",
     "grunt-contrib-uglify": "^4.0.0",
-    "pug": "^3.0.2",
+    "liftoff": "^4.0.0",
     "lodash": "4.17.19",
     "primus": "^7.3.1",
     "primus-emit": "^1.0.0",
     "primus-spark-latency": "^0.1.1",
+    "pug": "^3.0.2",
     "ws": "^6.1.2"
   },
   "repository": {
@@ -53,6 +54,5 @@
       "url": "https://github.com/goerli"
     }
   ],
-  "license": "LGPL-3.0",
-  "devDependencies": {}
+  "license": "LGPL-3.0"
 }
