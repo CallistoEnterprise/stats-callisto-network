@@ -76,5 +76,5 @@ WS_SECRET="asdf" npm start
 ## Node command example
 
 ```
-geth --ethstats thor:test@localhost:4000 --networkid 820 --syncmode light --datadir "/home/clo_node" --nousb
+geth --ethstats thor:asdf@localhost:3000 --networkid 820 --syncmode light --datadir "/home/clo_node" --nousb
 ```
