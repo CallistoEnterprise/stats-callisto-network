@@ -40,7 +40,7 @@ var server;
 // Init API Socket connection
 api = new Primus(server, {
   transformer: "websockets",
-  pathname: "/api",
+  pathname: "./api",
   parser: "JSON",
 });
 
@@ -50,7 +50,7 @@ api.plugin("spark-latency", require("primus-spark-latency"));
 // Init Client Socket connection
 client = new Primus(server, {
   transformer: "websockets",
-  pathname: "/primus",
+  pathname: "./primus",
   parser: "JSON",
 });
 
@@ -59,7 +59,7 @@ client.plugin("emit", require("primus-emit"));
 // Init external API
 external = new Primus(server, {
   transformer: "websockets",
-  pathname: "/external",
+  pathname: "./external",
   parser: "JSON",
 });
 
