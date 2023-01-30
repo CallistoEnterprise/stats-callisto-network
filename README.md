@@ -40,7 +40,7 @@ grunt poa
 To build the static files for a network other than Ethereum copy and change src/js/defaultConfig.js and run the following command.
 
 ```bash
-grunt poa --configPath="src/js/someOtherConfig.js"
+grunt poa --configPath="src/js/callistoConfig.js"
 ```
 
 #### Run
